@@ -24,4 +24,5 @@
     }
   }
 
-  // Step 5: Add eve
+ const submitBtn = document.getElementById("submit-answer");
+submitBtn.addEventListener("click", checkAnswer);
